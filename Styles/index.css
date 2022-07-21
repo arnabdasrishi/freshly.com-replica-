@@ -204,3 +204,140 @@ form > div > input {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
+#banner4 {
+  margin: auto;
+  width: 80%;
+  margin-top: 6%;
+  text-align: center;
+  font-size: 25px;
+}
+#banner4 > p {
+  margin: auto;
+  margin-top: -1%;
+  margin-bottom: 4%;
+  width: 50%;
+  font-size: 20px;
+}
+#banner4 > div+p {
+  margin: auto;
+  margin-top: 2%;
+  color: teal;
+  font-weight: 600;
+  font-size: 17px;
+}
+#banner4 > img {
+  width: 12%;
+}
+#banner4 > div {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 20px;
+}
+#banner4 > div > div{
+  height: auto;
+  color: teal;
+}
+#banner4 > div > div > img {
+  width: 100%;
+  position: relative;
+}
+#banner4 > div > div > p{
+  margin-left: 1%;
+  margin-top: 10px;
+  width: 8%;
+  text-align: center;
+  height: 22px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: aquamarine;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 700;
+  color: black;
+}
+#banner4 > button {
+  width: 10%;
+  height: 60px;
+  background-color: #3167ff;
+  color: white;
+  font-size: 20px;
+  border: none;
+  margin-top: 3%;
+}
+
+#banner5 {
+  margin: auto;
+  width: 70%;
+  height: auto;
+  text-align: center;
+  margin-top: 5%;
+}
+#banner5 > div {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+#banner5 > div > div > img {
+  width: 40%;
+}
+#banner5 > div > div {
+  padding: 2%;
+  font-size: 20px;
+}
+#banner5 > h3 {
+  font-size: 50px;
+}
+
+ #left {
+  position: relative;
+  right: 51%;
+  bottom: 200px;
+  font-size: 40px;
+  color: #4e7dff;
+  border: none;
+  background-color: #fffdf7;
+}
+#right {
+  position: relative;
+  left: 51%;
+  bottom: 200px;
+  font-size: 40px;
+  color: #4e7dff;
+  border: none;
+  background-color: #fffdf7;
+}
+
+#banner6 {
+  margin: auto;
+  height: auto;
+  width: 85%;
+  display: flex;
+}
+#banner6 > div {
+  width: 50%;
+  padding: 1%;
+}
+#banner6 > div > img {
+  width: 90%;
+}
+#banner6 > div:first-child {
+  height: 250px;
+  width: 40%;
+  background-color: white;
+  z-index: 700;
+  position: relative;
+  top: 170px;
+  left: 210px;
+  font-size: 21px;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+#banner6 > div > button {
+  width: 19%;
+  height: 50px;
+  background-color: #3167ff;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
