@@ -29,12 +29,18 @@ function addLastSign(){
     window.location.reload();
 }
 
+
+//navbar links
 document.querySelector("#lgin").addEventListener("click",loginherf);
 document.querySelector("#sgnup").addEventListener("click",signherf);
+document.querySelector("#plans").addEventListener("click",plans_menu);
 
 function loginherf() {
     window.location.href = "login-page.html"
 }
 function signherf() {
     window.location.href = "signup-page.html"
+}
+function plans_menu() {
+    window.location.href = "plans-menus.html"
 }
