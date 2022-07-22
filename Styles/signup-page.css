@@ -1,0 +1,118 @@
+body {
+  margin: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #fffdf7;
+}
+#navbar {
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  background-color: #fffdf7;
+  margin: auto;
+  display: flex;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+#links {
+  height: auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  gap: 2%;
+  margin: auto;
+  color: rgb(153, 153, 153);
+  margin-left: 50px;
+}
+#logo > img {
+  height: 60px;
+  margin: auto;
+  margin-left: 290px;
+}
+#cust {
+  width: 30%;
+  margin-right: 5%;
+  margin-bottom: 8px;
+  color: blue;
+  font-size: 19px;
+}
+
+#container1 {
+    border: 1px solid white;
+    height: 750px;
+    background-image: url('https://res.cloudinary.com/freshly/image/upload/c_crop,g_auto,dpr_auto,q_30,w_1500,h_900/v1494958610/joinnow-southchicken.jpg');
+    background-size: 100%;
+}
+#signUp {
+    margin: auto;
+    margin-top: 5%;
+    width: 40%;
+    height: 290px;
+    background-color: white;
+    padding: 3%;
+    opacity: 0.9;
+}
+#signUp {
+    font-size: 17px;
+}
+#signUp > h1 {
+    margin-top: 0%;
+    font-size: 50px;
+}
+#signUp > form {
+    display: flex;
+    gap: 20px;
+}
+#signUp > form > input {
+    height: 45px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+#signUp > form > input:first-child{
+    height: 45px;
+    width: 50%;
+}
+#signUp > form > input:last-child {
+    background-color: #3167ff;
+    color: white;
+    border: none;
+    width: 140px;
+    height: 50px;
+}
+
+#signUp > div:last-child {
+    margin-top: 5%;
+}
+
+#containerlast {
+    height: auto;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+#containerlast > h1 {
+    margin-top: 6%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#containerlast > div {
+    margin: auto;
+    height: auto;
+    border-bottom: 1px solid grey;
+    width: 60%;
+    display: flex;
+    gap: 70%;
+    font-size: 24px;
+}
+#containerlast > div > h3 {
+    color: blue;
+    display: flex;
+    align-items: center;
+}
+#containerlast > div:last-child{
+    border: none;
+}

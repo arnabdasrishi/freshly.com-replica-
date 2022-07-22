@@ -1,0 +1,117 @@
+body{
+    background-color: #fffdf7;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#navbar {
+    background-color: white;
+    height: 70px;
+    display: flex;
+    gap: -7px;
+    position: sticky;
+    z-index: 999;
+}
+#navbar > div {
+    margin: auto;
+    width: 26%;
+    height: 100%;
+    display: flex;
+    gap: 27px;
+    font-size: 19px;
+    text-align: center;
+    justify-content: center;
+}
+#navbar > div > img {
+    margin-top: 1%;
+    height: 85%;
+}
+#navbar > div:first-child{
+    margin-left: 10%;
+}
+#navbar > div:last-child{
+    margin-right: 10%;
+}
+#navbar > div > button {
+    background-color: #3167ff;
+    color: white;
+    border: none;
+    width: 18%;
+    height: 70%;
+    font-size: 16px;
+    margin-top: 7px;
+}
+
+#container {
+    height: 580px;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 2%;
+}
+#container > div {
+    text-align: left;
+    margin: auto;
+    width: 40%;
+    height: 70%;
+    padding-left: 15%;
+}
+#login > label {
+    margin: auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+#login > input {
+    margin: auto;
+    width: 67%;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+#Loginbtn {
+    background-color: #3167ff;
+    color: white;
+    border: none;
+    margin-top: 5%;
+}
+#forgot {
+    display: flex;
+    font-size: 15px;
+}
+#forgot > p:last-child{
+    margin-left: 27%;
+}
+#footer {
+    background-color: white;
+    height: 400px;
+  }
+  #footer > div {
+    margin:auto;
+    width: 70%;
+    height: 100%;
+    display: flex;
+  }
+
+  #footer > div > div {
+    width: 25%;
+    margin-top: 5%;
+  }
+  #footer > div > div > p {
+    color: blue;
+  }
+  #footer > div > div > h3{
+    margin-top: 0%;
+    font-weight: 600;
+  }
+  #footer > div > div:first-child > img {
+    width: 40%;
+  }
+  
+  #footer > div > div:last-child > div {
+    height:40px;
+    display: flex;
+  }
+  #footer > div > div:last-child > div > div > img {
+    width: 40%;
+  }
+  #footer > div > div > div {
+    margin-top: 20px;
+  }
