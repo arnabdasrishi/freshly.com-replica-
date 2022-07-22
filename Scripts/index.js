@@ -28,3 +28,13 @@ function addLastSign(){
     alert("Sign-Up Success")
     window.location.reload();
 }
+
+document.querySelector("#lgin").addEventListener("click",loginherf);
+document.querySelector("#sgnup").addEventListener("click",signherf);
+
+function loginherf() {
+    window.location.href = "login-page.html"
+}
+function signherf() {
+    window.location.href = "signup-page.html"
+}
