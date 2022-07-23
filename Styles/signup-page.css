@@ -48,6 +48,9 @@ body {
     background-image: url('https://res.cloudinary.com/freshly/image/upload/c_crop,g_auto,dpr_auto,q_30,w_1500,h_900/v1494958610/joinnow-southchicken.jpg');
     background-size: 100%;
 }
+#form1:hover{
+  transform: scale(1.1);
+}
 #signUp {
     margin: auto;
     margin-top: 5%;
@@ -116,3 +119,20 @@ body {
 #containerlast > div:last-child{
     border: none;
 }
+
+#chatIcon {
+    display: flex;
+    justify-content: end;
+    padding-right: 45px;
+    padding-bottom: 1%;
+    position: sticky;
+    z-index: 999;
+    bottom: 0;
+  }
+  #chatIcon > img:hover {
+    transform: scale(1.3)
+  }
+  #chatIcon > img {
+    border-radius: 30px;
+    width: 2.5%;
+  }

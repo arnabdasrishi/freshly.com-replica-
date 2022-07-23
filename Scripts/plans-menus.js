@@ -148,3 +148,23 @@ function sortingA(){
         window.location.reload();
     }
 }
+
+// navbar herfs 
+document.querySelector("#logo").addEventListener("click", toHomePage)
+document.querySelector("#lgin").addEventListener("click", toLogIn)
+document.querySelector("#sgnup").addEventListener("click", sgnup)
+document.querySelector("#plan").addEventListener("click", gotoPlans)
+
+
+function toHomePage() {
+    window.location.href = "index.html";
+}
+function toLogIn() {
+    window.location.href = "login-page.html"
+}
+function sgnup() {
+    window.location.href = "signup-page.html"
+}
+function gotoPlans() {
+    window.location.href = "plans-menus.html"
+}
