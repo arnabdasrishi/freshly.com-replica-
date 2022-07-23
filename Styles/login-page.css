@@ -40,6 +40,14 @@ body{
     font-size: 16px;
     margin-top: 7px;
 }
+#sgnbtn:hover{
+  transform: scale(1.1);
+}
+#lgin:hover{
+  transform: scale(1.2);
+  color: #3167ff;
+}
+
 
 #container {
     height: 580px;
@@ -71,6 +79,9 @@ body{
     color: white;
     border: none;
     margin-top: 5%;
+}
+#Loginbtn:hover {
+  transform: scale(1.05);
 }
 #forgot {
     display: flex;
@@ -114,4 +125,21 @@ body{
   }
   #footer > div > div > div {
     margin-top: 20px;
+  }
+
+  #chatIcon {
+    display: flex;
+    justify-content: end;
+    padding-right: 45px;
+    padding-bottom: 1%;
+    position: sticky;
+    z-index: 999;
+    bottom: 0;
+  }
+  #chatIcon > img:hover {
+    transform: scale(1.3)
+  }
+  #chatIcon > img {
+    border-radius: 30px;
+    width: 2.5%;
   }

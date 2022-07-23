@@ -15,3 +15,13 @@ function addtoSign() {
   }
 }
 
+//navbar
+document.querySelector("#freshly").addEventListener("click", gotoHome)
+document.querySelector("#logIn").addEventListener("click", toLogin)
+
+function gotoHome(){
+  window.location.href = "index.html"
+}
+function toLogin(){
+  window.location.href = "login-page.html"
+}

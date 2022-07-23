@@ -42,6 +42,22 @@ body {
   gap: 5%;
   margin: auto;
 }
+#sgnup:hover{
+  transform: scale(1.2);
+}
+#lgin:hover{
+  transform: scale(1.2);
+}
+#plans:hover{
+  transform: scale(1.1);
+  color: #3167ff;
+}
+#explore,#sgnup1,#lastform:hover{
+  transform: scale(1.1);
+}
+#signup:hover{
+  transform: scale(1.1);
+}
 #logo > img {
   height: 45px;
   margin: auto;
@@ -442,4 +458,20 @@ form > div > input {
 }
 #footer > div > div > div {
   margin-top: 20px;
+}
+#chatIcon {
+  display: flex;
+  justify-content: end;
+  padding-right: 45px;
+  padding-bottom: 1%;
+  position: sticky;
+  z-index: 999;
+  bottom: 0;
+}
+#chatIcon > img:hover {
+  transform: scale(1.3)
+}
+#chatIcon > img {
+  border-radius: 30px;
+  width: 2.5%;
 }

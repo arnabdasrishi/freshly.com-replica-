@@ -34,6 +34,9 @@ function addLastSign(){
 document.querySelector("#lgin").addEventListener("click",loginherf);
 document.querySelector("#sgnup").addEventListener("click",signherf);
 document.querySelector("#plans").addEventListener("click",plans_menu);
+document.querySelector("#logo").addEventListener("click", refreshing);
+document.querySelector("#goPlans").addEventListener("click", gotoPlans);
+document.querySelector("#sgnup1").addEventListener("click", againSignUP)
 
 function loginherf() {
     window.location.href = "login-page.html"
@@ -43,4 +46,13 @@ function signherf() {
 }
 function plans_menu() {
     window.location.href = "plans-menus.html"
+}
+function refreshing(){
+    window.location.reload();
+}
+function gotoPlans(){
+    window.location.href = "plans-menus.html"
+}
+function againSignUP(){
+    window.location.href = "signup-page.html"
 }

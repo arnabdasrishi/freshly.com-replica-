@@ -14,8 +14,13 @@ function loginData(){
     }
 }
 
+// navbar links
 document.querySelector("#sgnbtn").addEventListener("click",goSignUp)
+document.querySelector("#logo").addEventListener("click", goToHome)
 
 function goSignUp(){
     window.location.href = "signup-page.html"
+}
+function goToHome() {
+    window.location.href = "index.html"
 }
